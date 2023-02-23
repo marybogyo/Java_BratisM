@@ -17,7 +17,7 @@ public class Metodus_gyakorlas {
         for (int i = 0; i < 10; i++) {
             osszeg += i;
         }
-        return osszeg
+        return osszeg;
                 
         //Kiir("Az első 10szám összege: " + osszeg);
     }
@@ -25,7 +25,7 @@ public class Metodus_gyakorlas {
     {
         System.out.println(vmi);
     }
-    private static void osszead(int a, int b){
+    private static int osszead(int a, int b){
         return a+b;
      /*System.out.printf("%d + %d = %d\n", a, b, a+b);*/
     }
