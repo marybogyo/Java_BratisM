@@ -10,6 +10,17 @@ public class Metodus_gyakorlas {
         
         int szam1 = 7, szam2 = 4;
         Kiir("%d + %d = %d\n".formatted(szam1,szam2,szam1+szam2));
+        
+        int szam3 = 3, szam4 = 4;
+        
+        int osszeg1 = osszead(szam1, szam2);
+        int osszeg2 = osszead(osszeg1, szam3);
+        int vegosszeg = osszead(osszeg2, szam4);
+        
+        Kiir("A számok összge:\n" + vegosszeg);
+        
+        double gyok = Math.sqrt(osszeg2);
+        Kiir("A " + szam1 +", " + szam2 + ", " + szam3 + " összegének a gyöke:\n" + gyok);
     }
   
         public static int elso10SzamOsszeg(){
